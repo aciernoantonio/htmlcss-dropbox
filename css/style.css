@@ -143,3 +143,8 @@ body{
 .contact_partner > .col_75{
     height: 300px;
 }
+
+.more_operation > .col_33{
+    height: 300px;
+    margin-top: 20px;
+}
