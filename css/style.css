@@ -48,7 +48,7 @@ body{
 /* Col */
 
 .col_25{
-    height: 200px;
+    height: 450px;
     width: 25%;
     background-color: lightgreen;
     float: left;
@@ -69,7 +69,7 @@ body{
 }
 
 .col_75{
-    height: 300px;
+    height: 450px;
     width: 73%;
     background-color: lightgreen;
     float: left;
@@ -137,4 +137,9 @@ body{
 
 .contact_partner > .col_25{
     width: 24.50%;
+    height: 300px;
+}
+
+.contact_partner > .col_75{
+    height: 300px;
 }
