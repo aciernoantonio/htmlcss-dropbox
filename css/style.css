@@ -148,3 +148,26 @@ body{
     height: 300px;
     margin-top: 20px;
 }
+
+.link{
+    margin-top: 20px;
+    height: 1rem;
+    background-color: aquamarine;
+}
+
+.partner{
+    margin-top: 20px;
+}
+
+.partner > .col_25{
+    height: 300px;
+}
+
+.partner > .col_50{
+    height: 300px;
+}
+
+.partner > .col_25 > .col_50{
+    height: 150px;
+    background-color: brown;
+}
