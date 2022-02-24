@@ -130,3 +130,11 @@ body{
 .enterprise{
     margin-top: 60px;
 }
+
+.contact_partner{
+    padding: 4rem 0;
+}
+
+.contact_partner > .col_25{
+    width: 24.50%;
+}
