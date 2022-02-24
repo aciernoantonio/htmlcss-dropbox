@@ -1,5 +1,55 @@
+/* Common rules */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+    --element-color: #0061FF;
+    --background-color: #B4D0E7;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* utility */
+
+.margin_lg{
+    width: 1100px;
+    margin: auto;
+}
+
+.margin_sm{
+    width: 800px;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* header */
+
+.navbar{
+    height: 3rem;
+    background-color: salmon;
+}
+
+.left_row{
+    height: 3rem;
+    width: 50%;
+    background-color: aqua;
+    float: left;
+}
+
+.right_row{
+    height: 3rem;
+    width: 50%;
+    background-color: royalblue;
+    float: left;
 }
