@@ -171,3 +171,16 @@ body{
     height: 150px;
     background-color: brown;
 }
+
+.firm{
+    padding: 2rem 0;
+}
+
+.firm > .margin_sm > .col_25{
+    background-color: cadetblue;
+    height: 200px;
+}
+
+.firm > .margin_sm > .col_75{
+    height: 200px;
+}
