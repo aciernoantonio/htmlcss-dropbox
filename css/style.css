@@ -47,6 +47,13 @@ body{
 
 /* Col */
 
+.col_20{
+    height: 300px;
+    width: 20%;
+    background-color: aqua;
+    float: left;
+}
+
 .col_25{
     height: 450px;
     width: 25%;
@@ -187,11 +194,25 @@ body{
 
 .faq > .section_title{
     margin-top: 2rem;
-    margin-bottom: 4rem;
 }
 
 .question{
     height: 2rem;
     margin-top: 3rem;
     background-color: blue;
+}
+
+#site_footer{
+    margin-top: 8rem;
+    background-color: darkgoldenrod;
+}
+
+.useful{
+    padding: 6rem 0;
+}
+
+.useful > .col_100{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    height: 2rem;
 }
