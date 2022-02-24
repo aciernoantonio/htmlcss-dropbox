@@ -184,3 +184,14 @@ body{
 .firm > .margin_sm > .col_75{
     height: 200px;
 }
+
+.faq > .section_title{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.question{
+    height: 2rem;
+    margin-top: 3rem;
+    background-color: blue;
+}
