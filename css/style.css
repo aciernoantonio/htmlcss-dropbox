@@ -37,19 +37,34 @@ body{
     margin-right: 20px;
 }
 
-/* Col */
-
-.col_50{
-    height: 3rem;
-    width: 50%;
-    background-color: aqua;
-    float: left;
+.ml{
+    margin-left: 20px;
 }
+
+.vh{
+    height: 100vh;
+}
+
+/* Col */
 
 .col_25{
     height: 200px;
     width: 25%;
     background-color: lightgreen;
+    float: left;
+}
+
+.col_33{
+    height: 500px;
+    width: 31.66%;
+    background-color: blueviolet;
+    float: left;
+}
+
+.col_50{
+    height: 3rem;
+    width: 50%;
+    background-color: aqua;
     float: left;
 }
 
@@ -60,9 +75,20 @@ body{
     float: left;
 }
 
+.col_100{
+    height: 150px;
+    width: 100%;
+    background-color: burlywood;
+    float: left;
+}
+
 /* header */
 
 #site_header{
+    height: 100vh;
+}
+
+.head_bg{
     height: 80vh;
     background-color: wheat;
 }
@@ -81,4 +107,26 @@ body{
 
 .hero_section{
     margin-top: 2rem;
+}
+
+/* main */
+
+.section_title{
+    margin-top: 1rem;
+    height: 3rem;
+    background-color: coral;
+}
+
+.radio_btn{
+    margin-top: 3rem;
+    height: 2rem;
+    background-color: aquamarine;
+}
+
+.plan{
+    margin-top: 20px;
+}
+
+.enterprise{
+    margin-top: 60px;
 }
