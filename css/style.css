@@ -84,9 +84,7 @@ a{
 }
 
 .col_100{
-    height: 150px;
     width: 100%;
-    background-color: burlywood;
     float: left;
 }
 
@@ -196,11 +194,6 @@ a{
     padding: 1.5rem 1.5rem 8rem;
 }
 
-/* .info{
-
-    margin-bottom: 8rem;
-}
- */
 .info > h5{
     margin: 0.5rem 0;
 }
@@ -264,7 +257,24 @@ label{
 }
 
 .enterprise{
-    margin-top: 60px;
+    margin-top: 20px;
+}
+
+.content > .col_75 h5{
+    margin: 15px 0;
+}
+
+.content > .col_75 div{
+    font-size: 0.65rem;
+}
+
+.content > .col_25{
+    color: white;
+    font-size: 0.65rem;
+}
+
+.content > .col_25 > a{
+    padding: 0.5rem 2.1rem;
 }
 
 .contact_partner{
