@@ -73,8 +73,18 @@ a{
     float: left;
 }
 
+.col_40{
+    width: 37%;
+    float: left;
+}
+
 .col_50{
     width: 50%;
+    float: left;
+}
+
+.col_60{
+    width: 60%;
     float: left;
 }
 
@@ -93,6 +103,12 @@ a{
 .btn_main{
     color: white;
     background-color: var(--element-color);
+    padding: 0.5rem 1.5rem;
+}
+
+.btn_black{
+    background-color: white;
+    border: 1px solid black;
     padding: 0.5rem 1.5rem;
 }
 
@@ -281,13 +297,18 @@ label{
     padding: 4rem 0;
 }
 
-.contact_partner > .col_25{
-    width: 24.50%;
-    height: 300px;
+.contact_partner > .col_40{
+    margin-top: 2rem;
+    font-size: 0.97rem;
 }
 
-.contact_partner > .col_75{
-    height: 300px;
+.col_40 > p{
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
+
+.partner_img{
+    width: 100%;
 }
 
 .more_operation > .col_33{
