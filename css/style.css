@@ -15,6 +15,11 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /* utility */
 
 .margin_lg{
@@ -69,9 +74,7 @@ body{
 }
 
 .col_50{
-    height: 3rem;
     width: 50%;
-    background-color: aqua;
     float: left;
 }
 
@@ -89,6 +92,14 @@ body{
     float: left;
 }
 
+/* buttons */
+
+.btn_main{
+    color: white;
+    background-color: var(--element-color);
+    padding: 0.5rem 1.5rem;
+}
+
 /* header */
 
 #site_header{
@@ -96,20 +107,36 @@ body{
 }
 
 .head_bg{
-    height: 80vh;
-    background-color: wheat;
+    height: 650px;
+    background-color: var(--background-color);
 }
 
 .navbar{
-    height: 3rem;
-    background-color: salmon;
+    background-color: white;
+    padding: 1.5rem 1rem;
 }
 
+.logo{
+    vertical-align: sub;
+}
+
+.left_menu > ul,
+.right_menu > ul{
+    display: inline-block;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 0.75rem;
+}
+
+.right_menu{
+    text-align: right;
+}
 
 .title{
     margin-top: 5rem;
-    height: 8rem;
-    background-color: cadetblue;
 }
 
 .hero_section{
