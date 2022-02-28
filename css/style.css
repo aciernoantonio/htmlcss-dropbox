@@ -85,6 +85,7 @@ a{
 .col_50{
     width: 50%;
     float: left;
+    position: relative;
 }
 
 .col_60{
@@ -312,7 +313,12 @@ label{
 }
 
 .partner_img{
-    width: 100%;
+    filter: invert(1);
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .more_operation > .col_33{
@@ -322,19 +328,6 @@ label{
 
 .partner{
     margin-top: 20px;
-}
-
-.partner > .col_25{
-    height: 300px;
-}
-
-.partner > .col_50{
-    height: 300px;
-}
-
-.partner > .col_25 > .col_50{
-    height: 150px;
-    background-color: brown;
 }
 
 .firm{
@@ -400,3 +393,67 @@ label{
     text-decoration: underline;
     color: #0061FF;
 }
+
+/* color col_50 */
+
+#lightgreen{
+    background-color: #A2D39B;
+    border: 10px solid #D0E9CD;
+
+}
+
+#darkred{
+    background-color: #61082B;
+}
+
+#middleblue{
+    background-color: #0093CE;
+}
+
+#red{
+    background-color: #FF1C1C;
+}
+
+#crimson{
+    background-color: #D5001F;
+}
+
+#lightblue{
+    background-color: var(--background-color);
+}
+
+#darkblue{
+    background-color: #0D2481;
+}
+
+#yellow{
+    background-color: #FFD830;
+}
+
+.col_25 > .col_50{
+    height: 192px;
+}
+
+.partner > .col_50{
+    background-color: #F5F5F5;
+    padding: 2rem;
+}
+
+.designit{
+    width: 150px;
+    margin-bottom: 4rem;
+}
+
+.bt{
+    border-top: 2px solid lightgrey;
+    padding-top: 2rem;
+}
+
+.col_50 > p{
+    margin-bottom: 2rem;
+}
+
+.col_50 > div{
+    margin-bottom: 4rem;
+}
+
