@@ -50,6 +50,10 @@ a{
     margin-left: 20px;
 }
 
+.mt{
+    margin-top: 3rem;
+}
+
 .vh{
     height: 100vh;
 }
@@ -303,7 +307,7 @@ label{
 }
 
 .col_40 > p{
-    margin: 1rem 0;
+    margin: 1.5rem 0;
     line-height: 1.5rem;
 }
 
@@ -375,4 +379,16 @@ label{
     margin-top: 6rem;
     margin-bottom: 2rem;
     height: 2rem;
+}
+
+.img_33{
+    width: 100%;
+}
+
+.more_operation p{
+    font-size: 0.87rem;
+}
+
+#underline{
+    text-decoration: underline;
 }
