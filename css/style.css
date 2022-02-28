@@ -320,12 +320,6 @@ label{
     margin-top: 20px;
 }
 
-.link{
-    margin-top: 20px;
-    height: 1rem;
-    background-color: aquamarine;
-}
-
 .partner{
     margin-top: 20px;
 }
@@ -391,4 +385,18 @@ label{
 
 #underline{
     text-decoration: underline;
+}
+
+.dropbox_user .section_title{
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+
+.link{
+    margin-bottom: 3rem;
+}
+
+.link > a{
+    text-decoration: underline;
+    color: #0061FF;
 }
