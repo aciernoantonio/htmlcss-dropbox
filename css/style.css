@@ -60,6 +60,11 @@ a{
 
 /* Col */
 
+.col_10{
+    width: 10%;
+    float: right;
+}
+
 .col_20{
     height: 300px;
     width: 20%;
@@ -95,6 +100,11 @@ a{
 
 .col_75{
     width: 73%;
+    float: left;
+}
+
+.col_90{
+    width: 90%;
     float: left;
 }
 
@@ -342,13 +352,21 @@ label{
 }
 
 .faq > .section_title{
-    margin-top: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.question > i{
+    text-align: right;
 }
 
 .question{
-    height: 2rem;
-    margin-top: 3rem;
-    background-color: blue;
+    padding: 1.5rem 0;
+    border-top: 1px solid lightgrey;
+}
+
+.question > h5{
+    display: inline-block;
 }
 
 #site_footer{
