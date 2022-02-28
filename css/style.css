@@ -117,6 +117,12 @@ a{
     padding: 0.5rem 1.5rem;
 }
 
+.btn_white{
+    font-size: 0.75rem;
+    background-color: white;
+    padding: 0.5rem 1.5rem;
+}
+
 /* header */
 
 .head_bg{
@@ -327,17 +333,12 @@ label{
 }
 
 .firm{
-    padding: 2rem 0;
+    padding: 5rem 0;
     background-color: var(--background-color);
 }
 
-.firm > .margin_sm > .col_25{
-    background-color: cadetblue;
-    height: 200px;
-}
-
-.firm > .margin_sm > .col_75{
-    height: 200px;
+.firm h2{
+    color: #61082B;
 }
 
 .faq > .section_title{
@@ -440,7 +441,7 @@ label{
     transform: translate(-50%, -50%);
 }
 
-.partner > .col_50{
+.partner > .main_col > .col_50{
     background-color: #F5F5F5;
     padding: 2rem;
 }
@@ -455,11 +456,12 @@ label{
     padding-top: 2rem;
 }
 
-.col_50 > p{
+.main_col > .col_50 > p{
     margin-bottom: 2rem;
 }
 
-.col_50 > div{
+.main_col > .col_50 > div{
     margin-bottom: 4rem;
+    background-color: #F5F5F5;
 }
 
