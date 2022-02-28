@@ -66,9 +66,7 @@ a{
 }
 
 .col_20{
-    height: 300px;
     width: 20%;
-    background-color: aqua;
     float: left;
 }
 
@@ -375,17 +373,36 @@ label{
 
 #site_footer{
     margin-top: 8rem;
-    background-color: darkgoldenrod;
+    color: white;
+    background-color: black;
+}
+
+.useful h3{
+    margin-bottom: 1rem;
+}
+
+.useful > .col_20 > div{
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
 }
 
 .useful{
-    padding: 6rem 0;
+    padding-top: 6rem;
 }
 
 .useful > .col_100{
-    margin-top: 6rem;
+    margin-top: 1.5rem;
     margin-bottom: 2rem;
-    height: 2rem;
+}
+
+.len{
+    width: 8%;
+    float: left;
+    margin-top: 3rem;
+    font-size: 0.75rem;
+    color: gray;
+    border-top: 1px solid white;
+    padding-top: 2.5rem;
 }
 
 .img_33{
