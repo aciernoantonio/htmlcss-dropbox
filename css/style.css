@@ -313,12 +313,8 @@ label{
 }
 
 .partner_img{
-    filter: invert(1);
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+    
 }
 
 .more_operation > .col_33{
@@ -332,6 +328,7 @@ label{
 
 .firm{
     padding: 2rem 0;
+    background-color: var(--background-color);
 }
 
 .firm > .margin_sm > .col_25{
@@ -432,6 +429,15 @@ label{
 
 .col_25 > .col_50{
     height: 192px;
+}
+
+.logo_img{
+    filter: invert(1);
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .partner > .col_50{
